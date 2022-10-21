@@ -8,6 +8,7 @@ require '../src/config/db.php';
 $app = new \Slim\App;
 
 // Ruta clientes
-require '../src/rutas/productos.php';
+require '../src/rutas/routes.php';
+//require '../src/rutas/login.php';
 
 $app->run();

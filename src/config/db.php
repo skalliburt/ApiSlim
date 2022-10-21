@@ -4,7 +4,7 @@
     private $dbUser = 'root';
     private $dbPass = '';
     private $dbName = 'supermercado';
-    //conección 
+    //conexión 
     public function conectDB(){
       $mysqlConnect = "mysql:host=$this->dbHost;dbname=$this->dbName";
       $dbConnecion = new PDO($mysqlConnect, $this->dbUser, $this->dbPass);
